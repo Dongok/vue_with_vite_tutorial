@@ -24,7 +24,7 @@
             <label>
                 <input type="password" placeholder="password" v-model="password">
             </label>
-            <b-btn variant="success" type="submit">Login</b-btn>
+            <button variant="success" type="submit">Login</button>
             <p v-if="error" class="error">Bad login information</p>
         </form>
     </div>
